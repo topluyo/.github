@@ -28,18 +28,12 @@
 
 ## Bilgisayar Uygulamasını İndir
 
-Topluyo masaüstü uygulaması Windows, macOS ve Linux için mevcuttur. Kaynak kodu [**App**](https://github.com/topluyo/App) reposunda bulunur.
+Topluyo masaüstü uygulaması Windows, macOS ve Linux için mevcuttur. Kaynak kodu [**App**](https://github.com/topluyo/App) reposunda bulunur, aynı zamanda Microsoft Store üzerinden indirilebilir.
 
-<div align="center">
-<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
-<ms-store-badge
-	productid="9n9j9wjk7s38"
-	window-mode="full"
-	theme="auto"
-	size="large"
-	language="en-us"
-	animation="on">
-</ms-store-badge>
+<div align="start">
+<a href="https://apps.microsoft.com/detail/9n9j9wjk7s38?referrer=appbadge&mode=full" target="_blank"  rel="noopener noreferrer">
+	<img src="https://get.microsoft.com/images/tr%20dark.svg" width="200"/>
+</a>
 </div>
 
 ---
