@@ -38,64 +38,86 @@ Topluyo masaüstü uygulaması Windows, macOS ve Linux için mevcuttur. Kaynak k
 
 ---
 
+## Telefon Uygulamasını İndir
+
+Topluyo telefon uygulaması Android ve iOS için mevcuttur. Kaynak kodu [**Mobile**](https://github.com/topluyo/topluyo-Mobile) reposunda bulunur, aynı zamanda Google Play üzerinden indirilebilir.
+
+<div align="start">
+  <a href="https://play.google.com/store/apps/details?id=com.example.app">
+    <img
+      src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+      alt="Get it on Google Play"
+      height="80">
+  </a>
+</div>
+
+---
+
 ## Ekosistem
 
 Topluyo, tek bir uygulamadan çok; birbirine bağlı açık kaynak depoların oluşturduğu bir ekosistemdir. Web ve masaüstü istemcilerinden bot altyapısına, kimlik doğrulamadan CDN ve reverse proxy'ye kadar platformun neredeyse tamamı herkesin katkı sağlayabileceği şekilde açık tutulur.
 
 ### Ana Uygulamalar
-| Proje | Açıklama |
-|---|---|
-| [**App**](https://github.com/topluyo/App) | Ana Electron uygulaması — macOS, Linux ve Windows dağıtımları ile Microsoft Store sürümünün kaynak kodu |
+
+| Proje                                                   | Açıklama                                                                                                |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [**App**](https://github.com/topluyo/App)               | Ana Electron uygulaması — macOS, Linux ve Windows dağıtımları ile Microsoft Store sürümünün kaynak kodu |
+| [**Mobile**](https://github.com/topluyo/topluyo-Mobile) | Ana Flutter uygulaması — Android ve iOS dağıtımları ile Google Play ve App Store sürümünün kaynak kodu  |
 
 ### Kimlik Doğrulama & Oturum
-| Proje | Açıklama |
-|---|---|
+
+| Proje                                                     | Açıklama                                              |
+| --------------------------------------------------------- | ----------------------------------------------------- |
 | [**TopluyoPASS**](https://github.com/topluyo/TopluyoPASS) | Go ile geliştirilen "Topluyo ile Oturum Aç" backend'i |
-| [**TopluyoAUTH**](https://github.com/topluyo/TopluyoAUTH) | PHP ile oturum açma kütüphanesi |
+| [**TopluyoAUTH**](https://github.com/topluyo/TopluyoAUTH) | PHP ile oturum açma kütüphanesi                       |
 
 ### Bot Ekosistemi
-| Proje | Açıklama |
-|---|---|
-| [**TopluyoBOT**](https://github.com/topluyo/TopluyoBOT) | Topluyo botları geliştirmek için temel kütüphane |
-| [**TopluyoBOTJS**](https://github.com/topluyo/TopluyoBOTJS) | Node.js bot geliştirme kütüphanesi |
-| [**TopluyoBOTPY**](https://github.com/topluyo/TopluyoBOTPY) | Python bot geliştirme kütüphanesi |
-| [**.bot**](https://github.com/topluyo/.bot) | Topluyo Bot sunucusunun kaynak kodu |
-| [**bot**](https://github.com/topluyo/bot) | Bot örnekleri (PHP) |
-| [**bot-examples**](https://github.com/topluyo/bot-examples) | Bot örnekleri (JavaScript) |
+
+| Proje                                                       | Açıklama                                         |
+| ----------------------------------------------------------- | ------------------------------------------------ |
+| [**TopluyoBOT**](https://github.com/topluyo/TopluyoBOT)     | Topluyo botları geliştirmek için temel kütüphane |
+| [**TopluyoBOTJS**](https://github.com/topluyo/TopluyoBOTJS) | Node.js bot geliştirme kütüphanesi               |
+| [**TopluyoBOTPY**](https://github.com/topluyo/TopluyoBOTPY) | Python bot geliştirme kütüphanesi                |
+| [**.bot**](https://github.com/topluyo/.bot)                 | Topluyo Bot sunucusunun kaynak kodu              |
+| [**bot**](https://github.com/topluyo/bot)                   | Bot örnekleri (PHP)                              |
+| [**bot-examples**](https://github.com/topluyo/bot-examples) | Bot örnekleri (JavaScript)                       |
 
 ### Altyapı & Servisler
-| Proje | Açıklama |
-|---|---|
-| [**kuruyo**](https://github.com/topluyo/kuruyo) | Reverse proxy motoru |
-| [**cdn**](https://github.com/topluyo/cdn) | Topluyo CDN şablonu (NSFW filtreleme desteğiyle) |
-| [**.onlines**](https://github.com/topluyo/.onlines) | Online durumu için WebSocket sunucusu (Go) |
-| [**.direct**](https://github.com/topluyo/.direct) | Topluyo Direct sinyal bağlantı servisi (Go) |
-| [**signal**](https://github.com/topluyo/signal) | Sunucu tabanlı soket-soket, yayın ve mesajlaşma çatısı |
-| [**crypt**](https://github.com/topluyo/crypt) | Şifreleme kütüphanesi (Go) |
-| [**bozkurt**](https://github.com/topluyo/bozkurt) | DDoS ve botnet saldırılarını önleme aracı |
-| [**nsfw-filter**](https://github.com/topluyo/nsfw-filter) | Basitleştirilmiş, açık kaynaklı NSFW içerik filtreleme kütüphanesi |
-| [**Renderer**](https://github.com/topluyo/Renderer) | Renderer + Baser view engine modülü |
-| [**rendex**](https://github.com/topluyo/rendex) | Çoklu platform render kütüphanesi (PHP, JS) |
-| [**TopluyoAPP**](https://github.com/topluyo/TopluyoAPP) | Web uygulamalarının Topluyo ile haberleşmesini sağlayan kütüphane |
-| [**embed.topluyo.com**](https://github.com/topluyo/embed.topluyo.com) | Sunucu kanallarının anlık içeriklerini gösteren embed servisi |
+
+| Proje                                                                 | Açıklama                                                           |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [**kuruyo**](https://github.com/topluyo/kuruyo)                       | Reverse proxy motoru                                               |
+| [**cdn**](https://github.com/topluyo/cdn)                             | Topluyo CDN şablonu (NSFW filtreleme desteğiyle)                   |
+| [**.onlines**](https://github.com/topluyo/.onlines)                   | Online durumu için WebSocket sunucusu (Go)                         |
+| [**.direct**](https://github.com/topluyo/.direct)                     | Topluyo Direct sinyal bağlantı servisi (Go)                        |
+| [**signal**](https://github.com/topluyo/signal)                       | Sunucu tabanlı soket-soket, yayın ve mesajlaşma çatısı             |
+| [**crypt**](https://github.com/topluyo/crypt)                         | Şifreleme kütüphanesi (Go)                                         |
+| [**bozkurt**](https://github.com/topluyo/bozkurt)                     | DDoS ve botnet saldırılarını önleme aracı                          |
+| [**nsfw-filter**](https://github.com/topluyo/nsfw-filter)             | Basitleştirilmiş, açık kaynaklı NSFW içerik filtreleme kütüphanesi |
+| [**Renderer**](https://github.com/topluyo/Renderer)                   | Renderer + Baser view engine modülü                                |
+| [**rendex**](https://github.com/topluyo/rendex)                       | Çoklu platform render kütüphanesi (PHP, JS)                        |
+| [**TopluyoAPP**](https://github.com/topluyo/TopluyoAPP)               | Web uygulamalarının Topluyo ile haberleşmesini sağlayan kütüphane  |
+| [**embed.topluyo.com**](https://github.com/topluyo/embed.topluyo.com) | Sunucu kanallarının anlık içeriklerini gösteren embed servisi      |
 
 ### Mini Uygulamalar & Oyunlar
-| Proje | Açıklama |
-|---|---|
-| [**izletiyo.com**](https://github.com/topluyo/izletiyo.com) | Birlikte film izleme uygulaması |
-| [**uygulama.cizbil**](https://github.com/topluyo/uygulama.cizbil) | Topluyo entegreli Çizbil oyunu |
-| [**game-kelime-bulmaca**](https://github.com/topluyo/game-kelime-bulmaca) | Kelime bulmaca oyunu |
-| [**game-topluyo-kurtulus**](https://github.com/topluyo/game-topluyo-kurtulus) | GTA benzeri hayatta kalma oyunu |
-| [**market-app-checklist**](https://github.com/topluyo/market-app-checklist) | Topluyo için geliştirilmiş check-list uygulaması |
-| [**web.kodluyo.com**](https://github.com/topluyo/web.kodluyo.com) | Web programlama öğrenme ve pratik platformu |
+
+| Proje                                                                         | Açıklama                                         |
+| ----------------------------------------------------------------------------- | ------------------------------------------------ |
+| [**izletiyo.com**](https://github.com/topluyo/izletiyo.com)                   | Birlikte film izleme uygulaması                  |
+| [**uygulama.cizbil**](https://github.com/topluyo/uygulama.cizbil)             | Topluyo entegreli Çizbil oyunu                   |
+| [**game-kelime-bulmaca**](https://github.com/topluyo/game-kelime-bulmaca)     | Kelime bulmaca oyunu                             |
+| [**game-topluyo-kurtulus**](https://github.com/topluyo/game-topluyo-kurtulus) | GTA benzeri hayatta kalma oyunu                  |
+| [**market-app-checklist**](https://github.com/topluyo/market-app-checklist)   | Topluyo için geliştirilmiş check-list uygulaması |
+| [**web.kodluyo.com**](https://github.com/topluyo/web.kodluyo.com)             | Web programlama öğrenme ve pratik platformu      |
 
 ### Diğer
-| Proje | Açıklama |
-|---|---|
-| [**roadmap**](https://github.com/topluyo/roadmap) | Topluyo'nun genel yol haritası |
-| [**banner**](https://github.com/topluyo/banner) | Marka/tanıtım banner'ları |
-| [**NotluyoAPP**](https://github.com/topluyo/NotluyoAPP) | Not tutma uygulaması |
-| [**.github**](https://github.com/topluyo/.github) | Organizasyon profili ve topluluk sağlığı dosyaları |
+
+| Proje                                                   | Açıklama                                           |
+| ------------------------------------------------------- | -------------------------------------------------- |
+| [**roadmap**](https://github.com/topluyo/roadmap)       | Topluyo'nun genel yol haritası                     |
+| [**banner**](https://github.com/topluyo/banner)         | Marka/tanıtım banner'ları                          |
+| [**NotluyoAPP**](https://github.com/topluyo/NotluyoAPP) | Not tutma uygulaması                               |
+| [**.github**](https://github.com/topluyo/.github)       | Organizasyon profili ve topluluk sağlığı dosyaları |
 
 Tüm depolara [Repositories](https://github.com/orgs/topluyo/repositories) sayfamızdan ulaşabilirsiniz.
 
@@ -103,11 +125,12 @@ Tüm depolara [Repositories](https://github.com/orgs/topluyo/repositories) sayfa
 
 ## Teknoloji Yığını
 
-Ekosistem genelinde en çok kullanılan diller: **JavaScript** (Electron uygulaması, web istemcisi, botlar), **Go** (gerçek zamanlı servisler: oturum açma, WebSocket, sinyal, şifreleme), **PHP** (auth kütüphanesi, CDN, reverse proxy), **Python** (bot kütüphanesi) ve **HTML**.
+Ekosistem genelinde en çok kullanılan diller: **JavaScript** (Electron uygulaması, web istemcisi, botlar), **Go** (gerçek zamanlı servisler: oturum açma, WebSocket, sinyal, şifreleme), **PHP** (auth kütüphanesi, CDN, reverse proxy), **Flutter** (mobil uygulamalar), **Python** (bot kütüphanesi) ve **HTML**.
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Electron](https://img.shields.io/badge/-Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 
