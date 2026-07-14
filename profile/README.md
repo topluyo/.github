@@ -43,10 +43,10 @@ Topluyo masaüstü uygulaması Windows, macOS ve Linux için mevcuttur. Kaynak k
 Topluyo telefon uygulaması Android ve iOS için mevcuttur. Kaynak kodu [**Mobile**](https://github.com/topluyo/topluyo-Mobile) reposunda bulunur, aynı zamanda Google Play üzerinden indirilebilir.
 
 <div align="start">
-  <a href="https://play.google.com/store/apps/details?id=com.example.app">
+  <a href="https://play.google.com/store/apps/details?id=com.topluyo&hl=tr" target="_blank" rel="noopener noreferrer">
     <img
-      src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-      alt="Get it on Google Play"
+      src="https://play.google.com/intl/tr_tr/badges/static/images/badges/tr_badge_web_generic.png"
+      alt="Google Play'de Topluyo"
       height="80">
   </a>
 </div>
