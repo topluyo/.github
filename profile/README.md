@@ -40,7 +40,7 @@ Topluyo masaüstü uygulaması Windows, macOS ve Linux için mevcuttur. Kaynak k
 
 ## Telefon Uygulamasını İndir
 
-Topluyo telefon uygulaması Android ve iOS için mevcuttur. Kaynak kodu [**Mobile**](https://github.com/topluyo/topluyo-Mobile) reposunda bulunur, aynı zamanda Google Play üzerinden indirilebilir.
+Topluyo telefon uygulaması Android ve iOS için mevcuttur. Kaynak kodu [**Mobile**](https://github.com/topluyo/TopluyoMOBILE) reposunda bulunur, aynı zamanda Google Play üzerinden indirilebilir.
 
 <div align="start">
   <a href="https://play.google.com/store/apps/details?id=com.topluyo&hl=tr" target="_blank" rel="noopener noreferrer">
@@ -62,7 +62,7 @@ Topluyo, tek bir uygulamadan çok; birbirine bağlı açık kaynak depoların ol
 | Proje                                                   | Açıklama                                                                                                |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | [**App**](https://github.com/topluyo/App)               | Ana Electron uygulaması — macOS, Linux ve Windows dağıtımları ile Microsoft Store sürümünün kaynak kodu |
-| [**Mobile**](https://github.com/topluyo/topluyo-Mobile) | Ana Flutter uygulaması — Android ve iOS dağıtımları ile Google Play ve App Store sürümünün kaynak kodu  |
+| [**Mobile**](https://github.com/topluyo/TopluyoMOBILE)  | Ana Flutter uygulaması — Android ve iOS dağıtımları ile Google Play ve App Store sürümünün kaynak kodu  |
 
 ### Kimlik Doğrulama & Oturum
 
